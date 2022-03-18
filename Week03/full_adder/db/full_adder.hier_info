@@ -1,0 +1,26 @@
+|full_adder
+a => a.IN1
+b => b.IN1
+cin => cin.IN1
+sum << half_adder:ha2.port2
+cout << comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|full_adder|half_adder:ha1
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cin <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|full_adder|half_adder:ha2
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+sum <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cin <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
