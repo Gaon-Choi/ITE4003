@@ -1,10 +1,10 @@
-module tb_mux4b_4to1_en();
+module tb_mux8b_4to1();
 	reg [3:0] a, b, c, d;
 	reg [1:0] sel;
 	reg enable;
 	wire [3:0] out;
 	
-	mux_4b_4to1_en U0 (a, b, c, d, sel, enable, out);
+	mux8b_4to1 U0 (a, b, c, d, sel, enable, out);
 	
 	initial begin
 				a = 4'b0001; b = 4'b0010; c = 4'b0100; d = 4'b1000;
