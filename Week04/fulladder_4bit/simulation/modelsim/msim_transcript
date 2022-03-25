@@ -1,0 +1,562 @@
+# Reading pref.tcl
+# do fulladder_4bit_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit {C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit/fulladder_4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:10:07 on Mar 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit" C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit/fulladder_4bit.v 
+# -- Compiling module fulladder_4bit
+# -- Compiling module fulladder_1bit
+# 
+# Top level modules:
+# 	fulladder_4bit
+# End time: 03:10:07 on Mar 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit {C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit/tb_fulladder_4bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:10:09 on Mar 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit" C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit/tb_fulladder_4bit.v 
+# -- Compiling module tb_fulladder_4bit
+# 
+# Top level modules:
+# 	tb_fulladder_4bit
+# End time: 03:10:09 on Mar 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_fulladder_4bit
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_fulladder_4bit 
+# Start time: 03:10:09 on Mar 26,2022
+# Loading work.tb_fulladder_4bit
+# Loading work.fulladder_4bit
+# Loading work.fulladder_1bit
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# a= 0 b= 0 sum= 0 cout=0
+# a= 1 b= 0 sum= 1 cout=0
+# a= 2 b= 0 sum= 2 cout=0
+# a= 3 b= 0 sum= 3 cout=0
+# a= 4 b= 0 sum= 4 cout=0
+# a= 5 b= 0 sum= 5 cout=0
+# a= 6 b= 0 sum= 6 cout=0
+# a= 7 b= 0 sum= 7 cout=0
+# a= 8 b= 0 sum= 8 cout=0
+# a= 9 b= 0 sum= 9 cout=0
+# a=10 b= 0 sum=10 cout=0
+# a=11 b= 0 sum=11 cout=0
+# a=12 b= 0 sum=12 cout=0
+# a=13 b= 0 sum=13 cout=0
+# a=14 b= 0 sum=14 cout=0
+# a=15 b= 0 sum=15 cout=0
+# a= 0 b= 1 sum= 1 cout=0
+# a= 1 b= 1 sum= 2 cout=0
+# a= 2 b= 1 sum= 3 cout=0
+# a= 3 b= 1 sum= 4 cout=0
+# a= 4 b= 1 sum= 5 cout=0
+# a= 5 b= 1 sum= 6 cout=0
+# a= 6 b= 1 sum= 7 cout=0
+# a= 7 b= 1 sum= 8 cout=0
+# a= 8 b= 1 sum= 9 cout=0
+# a= 9 b= 1 sum=10 cout=0
+# a=10 b= 1 sum=11 cout=0
+# a=11 b= 1 sum=12 cout=0
+# a=12 b= 1 sum=13 cout=0
+# a=13 b= 1 sum=14 cout=0
+# a=14 b= 1 sum=15 cout=0
+# a=15 b= 1 sum= 0 cout=1
+# a= 0 b= 2 sum= 2 cout=0
+# a= 1 b= 2 sum= 3 cout=0
+# a= 2 b= 2 sum= 4 cout=0
+# a= 3 b= 2 sum= 5 cout=0
+# a= 4 b= 2 sum= 6 cout=0
+# a= 5 b= 2 sum= 7 cout=0
+# a= 6 b= 2 sum= 8 cout=0
+# a= 7 b= 2 sum= 9 cout=0
+# a= 8 b= 2 sum=10 cout=0
+# a= 9 b= 2 sum=11 cout=0
+# a=10 b= 2 sum=12 cout=0
+# a=11 b= 2 sum=13 cout=0
+# a=12 b= 2 sum=14 cout=0
+# a=13 b= 2 sum=15 cout=0
+# a=14 b= 2 sum= 0 cout=1
+# a=15 b= 2 sum= 1 cout=1
+# a= 0 b= 3 sum= 3 cout=0
+# a= 1 b= 3 sum= 4 cout=0
+# a= 2 b= 3 sum= 5 cout=0
+# a= 3 b= 3 sum= 6 cout=0
+# a= 4 b= 3 sum= 7 cout=0
+# a= 5 b= 3 sum= 8 cout=0
+# a= 6 b= 3 sum= 9 cout=0
+# a= 7 b= 3 sum=10 cout=0
+# a= 8 b= 3 sum=11 cout=0
+# a= 9 b= 3 sum=12 cout=0
+# a=10 b= 3 sum=13 cout=0
+# a=11 b= 3 sum=14 cout=0
+# a=12 b= 3 sum=15 cout=0
+# a=13 b= 3 sum= 0 cout=1
+# a=14 b= 3 sum= 1 cout=1
+# a=15 b= 3 sum= 2 cout=1
+# a= 0 b= 4 sum= 4 cout=0
+# a= 1 b= 4 sum= 5 cout=0
+# a= 2 b= 4 sum= 6 cout=0
+# a= 3 b= 4 sum= 7 cout=0
+# a= 4 b= 4 sum= 8 cout=0
+# a= 5 b= 4 sum= 9 cout=0
+# a= 6 b= 4 sum=10 cout=0
+# a= 7 b= 4 sum=11 cout=0
+# a= 8 b= 4 sum=12 cout=0
+# a= 9 b= 4 sum=13 cout=0
+# a=10 b= 4 sum=14 cout=0
+# a=11 b= 4 sum=15 cout=0
+# a=12 b= 4 sum= 0 cout=1
+# a=13 b= 4 sum= 1 cout=1
+# a=14 b= 4 sum= 2 cout=1
+# a=15 b= 4 sum= 3 cout=1
+# a= 0 b= 5 sum= 5 cout=0
+# a= 1 b= 5 sum= 6 cout=0
+# a= 2 b= 5 sum= 7 cout=0
+# a= 3 b= 5 sum= 8 cout=0
+# a= 4 b= 5 sum= 9 cout=0
+# a= 5 b= 5 sum=10 cout=0
+# a= 6 b= 5 sum=11 cout=0
+# a= 7 b= 5 sum=12 cout=0
+# a= 8 b= 5 sum=13 cout=0
+# a= 9 b= 5 sum=14 cout=0
+# a=10 b= 5 sum=15 cout=0
+# a=11 b= 5 sum= 0 cout=1
+# a=12 b= 5 sum= 1 cout=1
+# a=13 b= 5 sum= 2 cout=1
+# a=14 b= 5 sum= 3 cout=1
+# a=15 b= 5 sum= 4 cout=1
+# a= 0 b= 6 sum= 6 cout=0
+# a= 1 b= 6 sum= 7 cout=0
+# a= 2 b= 6 sum= 8 cout=0
+# a= 3 b= 6 sum= 9 cout=0
+# a= 4 b= 6 sum=10 cout=0
+# a= 5 b= 6 sum=11 cout=0
+# a= 6 b= 6 sum=12 cout=0
+# a= 7 b= 6 sum=13 cout=0
+# a= 8 b= 6 sum=14 cout=0
+# a= 9 b= 6 sum=15 cout=0
+# a=10 b= 6 sum= 0 cout=1
+# a=11 b= 6 sum= 1 cout=1
+# a=12 b= 6 sum= 2 cout=1
+# a=13 b= 6 sum= 3 cout=1
+# a=14 b= 6 sum= 4 cout=1
+# a=15 b= 6 sum= 5 cout=1
+# a= 0 b= 7 sum= 7 cout=0
+# a= 1 b= 7 sum= 8 cout=0
+# a= 2 b= 7 sum= 9 cout=0
+# a= 3 b= 7 sum=10 cout=0
+# a= 4 b= 7 sum=11 cout=0
+# a= 5 b= 7 sum=12 cout=0
+# a= 6 b= 7 sum=13 cout=0
+# a= 7 b= 7 sum=14 cout=0
+# a= 8 b= 7 sum=15 cout=0
+# a= 9 b= 7 sum= 0 cout=1
+# a=10 b= 7 sum= 1 cout=1
+# a=11 b= 7 sum= 2 cout=1
+# a=12 b= 7 sum= 3 cout=1
+# a=13 b= 7 sum= 4 cout=1
+# a=14 b= 7 sum= 5 cout=1
+# a=15 b= 7 sum= 6 cout=1
+# a= 0 b= 8 sum= 8 cout=0
+# a= 1 b= 8 sum= 9 cout=0
+# a= 2 b= 8 sum=10 cout=0
+# a= 3 b= 8 sum=11 cout=0
+# a= 4 b= 8 sum=12 cout=0
+# a= 5 b= 8 sum=13 cout=0
+# a= 6 b= 8 sum=14 cout=0
+# a= 7 b= 8 sum=15 cout=0
+# a= 8 b= 8 sum= 0 cout=1
+# a= 9 b= 8 sum= 1 cout=1
+# a=10 b= 8 sum= 2 cout=1
+# a=11 b= 8 sum= 3 cout=1
+# a=12 b= 8 sum= 4 cout=1
+# a=13 b= 8 sum= 5 cout=1
+# a=14 b= 8 sum= 6 cout=1
+# a=15 b= 8 sum= 7 cout=1
+# a= 0 b= 9 sum= 9 cout=0
+# a= 1 b= 9 sum=10 cout=0
+# a= 2 b= 9 sum=11 cout=0
+# a= 3 b= 9 sum=12 cout=0
+# a= 4 b= 9 sum=13 cout=0
+# a= 5 b= 9 sum=14 cout=0
+# a= 6 b= 9 sum=15 cout=0
+# a= 7 b= 9 sum= 0 cout=1
+# a= 8 b= 9 sum= 1 cout=1
+# a= 9 b= 9 sum= 2 cout=1
+# a=10 b= 9 sum= 3 cout=1
+# a=11 b= 9 sum= 4 cout=1
+# a=12 b= 9 sum= 5 cout=1
+# a=13 b= 9 sum= 6 cout=1
+# a=14 b= 9 sum= 7 cout=1
+# a=15 b= 9 sum= 8 cout=1
+# a= 0 b=10 sum=10 cout=0
+# a= 1 b=10 sum=11 cout=0
+# a= 2 b=10 sum=12 cout=0
+# a= 3 b=10 sum=13 cout=0
+# a= 4 b=10 sum=14 cout=0
+# a= 5 b=10 sum=15 cout=0
+# a= 6 b=10 sum= 0 cout=1
+# a= 7 b=10 sum= 1 cout=1
+# a= 8 b=10 sum= 2 cout=1
+# a= 9 b=10 sum= 3 cout=1
+# a=10 b=10 sum= 4 cout=1
+# a=11 b=10 sum= 5 cout=1
+# a=12 b=10 sum= 6 cout=1
+# a=13 b=10 sum= 7 cout=1
+# a=14 b=10 sum= 8 cout=1
+# a=15 b=10 sum= 9 cout=1
+# a= 0 b=11 sum=11 cout=0
+# a= 1 b=11 sum=12 cout=0
+# a= 2 b=11 sum=13 cout=0
+# a= 3 b=11 sum=14 cout=0
+# a= 4 b=11 sum=15 cout=0
+# a= 5 b=11 sum= 0 cout=1
+# a= 6 b=11 sum= 1 cout=1
+# a= 7 b=11 sum= 2 cout=1
+# a= 8 b=11 sum= 3 cout=1
+# a= 9 b=11 sum= 4 cout=1
+# a=10 b=11 sum= 5 cout=1
+# a=11 b=11 sum= 6 cout=1
+# a=12 b=11 sum= 7 cout=1
+# a=13 b=11 sum= 8 cout=1
+# a=14 b=11 sum= 9 cout=1
+# a=15 b=11 sum=10 cout=1
+# a= 0 b=12 sum=12 cout=0
+# a= 1 b=12 sum=13 cout=0
+# a= 2 b=12 sum=14 cout=0
+# a= 3 b=12 sum=15 cout=0
+# a= 4 b=12 sum= 0 cout=1
+# a= 5 b=12 sum= 1 cout=1
+# a= 6 b=12 sum= 2 cout=1
+# a= 7 b=12 sum= 3 cout=1
+# a= 8 b=12 sum= 4 cout=1
+# a= 9 b=12 sum= 5 cout=1
+# a=10 b=12 sum= 6 cout=1
+# a=11 b=12 sum= 7 cout=1
+# a=12 b=12 sum= 8 cout=1
+# a=13 b=12 sum= 9 cout=1
+# a=14 b=12 sum=10 cout=1
+# a=15 b=12 sum=11 cout=1
+# a= 0 b=13 sum=13 cout=0
+# a= 1 b=13 sum=14 cout=0
+# a= 2 b=13 sum=15 cout=0
+# a= 3 b=13 sum= 0 cout=1
+# a= 4 b=13 sum= 1 cout=1
+# a= 5 b=13 sum= 2 cout=1
+# a= 6 b=13 sum= 3 cout=1
+# a= 7 b=13 sum= 4 cout=1
+# a= 8 b=13 sum= 5 cout=1
+# a= 9 b=13 sum= 6 cout=1
+# a=10 b=13 sum= 7 cout=1
+# a=11 b=13 sum= 8 cout=1
+# a=12 b=13 sum= 9 cout=1
+# a=13 b=13 sum=10 cout=1
+# a=14 b=13 sum=11 cout=1
+# a=15 b=13 sum=12 cout=1
+# a= 0 b=14 sum=14 cout=0
+# a= 1 b=14 sum=15 cout=0
+# a= 2 b=14 sum= 0 cout=1
+# a= 3 b=14 sum= 1 cout=1
+# a= 4 b=14 sum= 2 cout=1
+# a= 5 b=14 sum= 3 cout=1
+# a= 6 b=14 sum= 4 cout=1
+# a= 7 b=14 sum= 5 cout=1
+# a= 8 b=14 sum= 6 cout=1
+# a= 9 b=14 sum= 7 cout=1
+# a=10 b=14 sum= 8 cout=1
+# a=11 b=14 sum= 9 cout=1
+# a=12 b=14 sum=10 cout=1
+# a=13 b=14 sum=11 cout=1
+# a=14 b=14 sum=12 cout=1
+# a=15 b=14 sum=13 cout=1
+# a= 0 b=15 sum=15 cout=0
+# a= 1 b=15 sum= 0 cout=1
+# a= 2 b=15 sum= 1 cout=1
+# a= 3 b=15 sum= 2 cout=1
+# a= 4 b=15 sum= 3 cout=1
+# a= 5 b=15 sum= 4 cout=1
+# a= 6 b=15 sum= 5 cout=1
+# a= 7 b=15 sum= 6 cout=1
+# a= 8 b=15 sum= 7 cout=1
+# a= 9 b=15 sum= 8 cout=1
+# a=10 b=15 sum= 9 cout=1
+# a=11 b=15 sum=10 cout=1
+# a=12 b=15 sum=11 cout=1
+# a=13 b=15 sum=12 cout=1
+# a=14 b=15 sum=13 cout=1
+# a=15 b=15 sum=14 cout=1
+# a= 0 b= 0 sum= 1 cout=0
+# a= 1 b= 0 sum= 2 cout=0
+# a= 2 b= 0 sum= 3 cout=0
+# a= 3 b= 0 sum= 4 cout=0
+# a= 4 b= 0 sum= 5 cout=0
+# a= 5 b= 0 sum= 6 cout=0
+# a= 6 b= 0 sum= 7 cout=0
+# a= 7 b= 0 sum= 8 cout=0
+# a= 8 b= 0 sum= 9 cout=0
+# a= 9 b= 0 sum=10 cout=0
+# a=10 b= 0 sum=11 cout=0
+# a=11 b= 0 sum=12 cout=0
+# a=12 b= 0 sum=13 cout=0
+# a=13 b= 0 sum=14 cout=0
+# a=14 b= 0 sum=15 cout=0
+# a=15 b= 0 sum= 0 cout=1
+# a= 0 b= 1 sum= 2 cout=0
+# a= 1 b= 1 sum= 3 cout=0
+# a= 2 b= 1 sum= 4 cout=0
+# a= 3 b= 1 sum= 5 cout=0
+# a= 4 b= 1 sum= 6 cout=0
+# a= 5 b= 1 sum= 7 cout=0
+# a= 6 b= 1 sum= 8 cout=0
+# a= 7 b= 1 sum= 9 cout=0
+# a= 8 b= 1 sum=10 cout=0
+# a= 9 b= 1 sum=11 cout=0
+# a=10 b= 1 sum=12 cout=0
+# a=11 b= 1 sum=13 cout=0
+# a=12 b= 1 sum=14 cout=0
+# a=13 b= 1 sum=15 cout=0
+# a=14 b= 1 sum= 0 cout=1
+# a=15 b= 1 sum= 1 cout=1
+# a= 0 b= 2 sum= 3 cout=0
+# a= 1 b= 2 sum= 4 cout=0
+# a= 2 b= 2 sum= 5 cout=0
+# a= 3 b= 2 sum= 6 cout=0
+# a= 4 b= 2 sum= 7 cout=0
+# a= 5 b= 2 sum= 8 cout=0
+# a= 6 b= 2 sum= 9 cout=0
+# a= 7 b= 2 sum=10 cout=0
+# a= 8 b= 2 sum=11 cout=0
+# a= 9 b= 2 sum=12 cout=0
+# a=10 b= 2 sum=13 cout=0
+# a=11 b= 2 sum=14 cout=0
+# a=12 b= 2 sum=15 cout=0
+# a=13 b= 2 sum= 0 cout=1
+# a=14 b= 2 sum= 1 cout=1
+# a=15 b= 2 sum= 2 cout=1
+# a= 0 b= 3 sum= 4 cout=0
+# a= 1 b= 3 sum= 5 cout=0
+# a= 2 b= 3 sum= 6 cout=0
+# a= 3 b= 3 sum= 7 cout=0
+# a= 4 b= 3 sum= 8 cout=0
+# a= 5 b= 3 sum= 9 cout=0
+# a= 6 b= 3 sum=10 cout=0
+# a= 7 b= 3 sum=11 cout=0
+# a= 8 b= 3 sum=12 cout=0
+# a= 9 b= 3 sum=13 cout=0
+# a=10 b= 3 sum=14 cout=0
+# a=11 b= 3 sum=15 cout=0
+# a=12 b= 3 sum= 0 cout=1
+# a=13 b= 3 sum= 1 cout=1
+# a=14 b= 3 sum= 2 cout=1
+# a=15 b= 3 sum= 3 cout=1
+# a= 0 b= 4 sum= 5 cout=0
+# a= 1 b= 4 sum= 6 cout=0
+# a= 2 b= 4 sum= 7 cout=0
+# a= 3 b= 4 sum= 8 cout=0
+# a= 4 b= 4 sum= 9 cout=0
+# a= 5 b= 4 sum=10 cout=0
+# a= 6 b= 4 sum=11 cout=0
+# a= 7 b= 4 sum=12 cout=0
+# a= 8 b= 4 sum=13 cout=0
+# a= 9 b= 4 sum=14 cout=0
+# a=10 b= 4 sum=15 cout=0
+# a=11 b= 4 sum= 0 cout=1
+# a=12 b= 4 sum= 1 cout=1
+# a=13 b= 4 sum= 2 cout=1
+# a=14 b= 4 sum= 3 cout=1
+# a=15 b= 4 sum= 4 cout=1
+# a= 0 b= 5 sum= 6 cout=0
+# a= 1 b= 5 sum= 7 cout=0
+# a= 2 b= 5 sum= 8 cout=0
+# a= 3 b= 5 sum= 9 cout=0
+# a= 4 b= 5 sum=10 cout=0
+# a= 5 b= 5 sum=11 cout=0
+# a= 6 b= 5 sum=12 cout=0
+# a= 7 b= 5 sum=13 cout=0
+# a= 8 b= 5 sum=14 cout=0
+# a= 9 b= 5 sum=15 cout=0
+# a=10 b= 5 sum= 0 cout=1
+# a=11 b= 5 sum= 1 cout=1
+# a=12 b= 5 sum= 2 cout=1
+# a=13 b= 5 sum= 3 cout=1
+# a=14 b= 5 sum= 4 cout=1
+# a=15 b= 5 sum= 5 cout=1
+# a= 0 b= 6 sum= 7 cout=0
+# a= 1 b= 6 sum= 8 cout=0
+# a= 2 b= 6 sum= 9 cout=0
+# a= 3 b= 6 sum=10 cout=0
+# a= 4 b= 6 sum=11 cout=0
+# a= 5 b= 6 sum=12 cout=0
+# a= 6 b= 6 sum=13 cout=0
+# a= 7 b= 6 sum=14 cout=0
+# a= 8 b= 6 sum=15 cout=0
+# a= 9 b= 6 sum= 0 cout=1
+# a=10 b= 6 sum= 1 cout=1
+# a=11 b= 6 sum= 2 cout=1
+# a=12 b= 6 sum= 3 cout=1
+# a=13 b= 6 sum= 4 cout=1
+# a=14 b= 6 sum= 5 cout=1
+# a=15 b= 6 sum= 6 cout=1
+# a= 0 b= 7 sum= 8 cout=0
+# a= 1 b= 7 sum= 9 cout=0
+# a= 2 b= 7 sum=10 cout=0
+# a= 3 b= 7 sum=11 cout=0
+# a= 4 b= 7 sum=12 cout=0
+# a= 5 b= 7 sum=13 cout=0
+# a= 6 b= 7 sum=14 cout=0
+# a= 7 b= 7 sum=15 cout=0
+# a= 8 b= 7 sum= 0 cout=1
+# a= 9 b= 7 sum= 1 cout=1
+# a=10 b= 7 sum= 2 cout=1
+# a=11 b= 7 sum= 3 cout=1
+# a=12 b= 7 sum= 4 cout=1
+# a=13 b= 7 sum= 5 cout=1
+# a=14 b= 7 sum= 6 cout=1
+# a=15 b= 7 sum= 7 cout=1
+# a= 0 b= 8 sum= 9 cout=0
+# a= 1 b= 8 sum=10 cout=0
+# a= 2 b= 8 sum=11 cout=0
+# a= 3 b= 8 sum=12 cout=0
+# a= 4 b= 8 sum=13 cout=0
+# a= 5 b= 8 sum=14 cout=0
+# a= 6 b= 8 sum=15 cout=0
+# a= 7 b= 8 sum= 0 cout=1
+# a= 8 b= 8 sum= 1 cout=1
+# a= 9 b= 8 sum= 2 cout=1
+# a=10 b= 8 sum= 3 cout=1
+# a=11 b= 8 sum= 4 cout=1
+# a=12 b= 8 sum= 5 cout=1
+# a=13 b= 8 sum= 6 cout=1
+# a=14 b= 8 sum= 7 cout=1
+# a=15 b= 8 sum= 8 cout=1
+# a= 0 b= 9 sum=10 cout=0
+# a= 1 b= 9 sum=11 cout=0
+# a= 2 b= 9 sum=12 cout=0
+# a= 3 b= 9 sum=13 cout=0
+# a= 4 b= 9 sum=14 cout=0
+# a= 5 b= 9 sum=15 cout=0
+# a= 6 b= 9 sum= 0 cout=1
+# a= 7 b= 9 sum= 1 cout=1
+# a= 8 b= 9 sum= 2 cout=1
+# a= 9 b= 9 sum= 3 cout=1
+# a=10 b= 9 sum= 4 cout=1
+# a=11 b= 9 sum= 5 cout=1
+# a=12 b= 9 sum= 6 cout=1
+# a=13 b= 9 sum= 7 cout=1
+# a=14 b= 9 sum= 8 cout=1
+# a=15 b= 9 sum= 9 cout=1
+# a= 0 b=10 sum=11 cout=0
+# a= 1 b=10 sum=12 cout=0
+# a= 2 b=10 sum=13 cout=0
+# a= 3 b=10 sum=14 cout=0
+# a= 4 b=10 sum=15 cout=0
+# a= 5 b=10 sum= 0 cout=1
+# a= 6 b=10 sum= 1 cout=1
+# a= 7 b=10 sum= 2 cout=1
+# a= 8 b=10 sum= 3 cout=1
+# a= 9 b=10 sum= 4 cout=1
+# a=10 b=10 sum= 5 cout=1
+# a=11 b=10 sum= 6 cout=1
+# a=12 b=10 sum= 7 cout=1
+# a=13 b=10 sum= 8 cout=1
+# a=14 b=10 sum= 9 cout=1
+# a=15 b=10 sum=10 cout=1
+# a= 0 b=11 sum=12 cout=0
+# a= 1 b=11 sum=13 cout=0
+# a= 2 b=11 sum=14 cout=0
+# a= 3 b=11 sum=15 cout=0
+# a= 4 b=11 sum= 0 cout=1
+# a= 5 b=11 sum= 1 cout=1
+# a= 6 b=11 sum= 2 cout=1
+# a= 7 b=11 sum= 3 cout=1
+# a= 8 b=11 sum= 4 cout=1
+# a= 9 b=11 sum= 5 cout=1
+# a=10 b=11 sum= 6 cout=1
+# a=11 b=11 sum= 7 cout=1
+# a=12 b=11 sum= 8 cout=1
+# a=13 b=11 sum= 9 cout=1
+# a=14 b=11 sum=10 cout=1
+# a=15 b=11 sum=11 cout=1
+# a= 0 b=12 sum=13 cout=0
+# a= 1 b=12 sum=14 cout=0
+# a= 2 b=12 sum=15 cout=0
+# a= 3 b=12 sum= 0 cout=1
+# a= 4 b=12 sum= 1 cout=1
+# a= 5 b=12 sum= 2 cout=1
+# a= 6 b=12 sum= 3 cout=1
+# a= 7 b=12 sum= 4 cout=1
+# a= 8 b=12 sum= 5 cout=1
+# a= 9 b=12 sum= 6 cout=1
+# a=10 b=12 sum= 7 cout=1
+# a=11 b=12 sum= 8 cout=1
+# a=12 b=12 sum= 9 cout=1
+# a=13 b=12 sum=10 cout=1
+# a=14 b=12 sum=11 cout=1
+# a=15 b=12 sum=12 cout=1
+# a= 0 b=13 sum=14 cout=0
+# a= 1 b=13 sum=15 cout=0
+# a= 2 b=13 sum= 0 cout=1
+# a= 3 b=13 sum= 1 cout=1
+# a= 4 b=13 sum= 2 cout=1
+# a= 5 b=13 sum= 3 cout=1
+# a= 6 b=13 sum= 4 cout=1
+# a= 7 b=13 sum= 5 cout=1
+# a= 8 b=13 sum= 6 cout=1
+# a= 9 b=13 sum= 7 cout=1
+# a=10 b=13 sum= 8 cout=1
+# a=11 b=13 sum= 9 cout=1
+# a=12 b=13 sum=10 cout=1
+# a=13 b=13 sum=11 cout=1
+# a=14 b=13 sum=12 cout=1
+# a=15 b=13 sum=13 cout=1
+# a= 0 b=14 sum=15 cout=0
+# a= 1 b=14 sum= 0 cout=1
+# a= 2 b=14 sum= 1 cout=1
+# a= 3 b=14 sum= 2 cout=1
+# a= 4 b=14 sum= 3 cout=1
+# a= 5 b=14 sum= 4 cout=1
+# a= 6 b=14 sum= 5 cout=1
+# a= 7 b=14 sum= 6 cout=1
+# a= 8 b=14 sum= 7 cout=1
+# a= 9 b=14 sum= 8 cout=1
+# a=10 b=14 sum= 9 cout=1
+# a=11 b=14 sum=10 cout=1
+# a=12 b=14 sum=11 cout=1
+# a=13 b=14 sum=12 cout=1
+# a=14 b=14 sum=13 cout=1
+# a=15 b=14 sum=14 cout=1
+# a= 0 b=15 sum= 0 cout=1
+# a= 1 b=15 sum= 1 cout=1
+# a= 2 b=15 sum= 2 cout=1
+# a= 3 b=15 sum= 3 cout=1
+# a= 4 b=15 sum= 4 cout=1
+# a= 5 b=15 sum= 5 cout=1
+# a= 6 b=15 sum= 6 cout=1
+# a= 7 b=15 sum= 7 cout=1
+# a= 8 b=15 sum= 8 cout=1
+# a= 9 b=15 sum= 9 cout=1
+# a=10 b=15 sum=10 cout=1
+# a=11 b=15 sum=11 cout=1
+# a=12 b=15 sum=12 cout=1
+# a=13 b=15 sum=13 cout=1
+# a=14 b=15 sum=14 cout=1
+# a=15 b=15 sum=15 cout=1
+# End time: 03:12:02 on Mar 26,2022, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 0

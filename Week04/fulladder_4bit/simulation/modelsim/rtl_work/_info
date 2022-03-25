@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit/simulation/modelsim
+vfulladder_1bit
+Z1 !s110 1648231807
+!i10b 1
+!s100 Z>zUS:NYEZZN@8Sl1OVf93
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IL7SEd:G6;jCejFVakWZg83
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1648231687
+Z5 8C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit/fulladder_4bit.v
+Z6 FC:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit/fulladder_4bit.v
+!i122 0
+L0 40 12
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1648231807.000000
+Z9 !s107 C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit/fulladder_4bit.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit|C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit/fulladder_4bit.v|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit
+Z13 tCvgOpt 0
+vfulladder_4bit
+R1
+!i10b 1
+!s100 ?na^9XiDJ=ZTGch4]9Qiz3
+R2
+Ia0W>7i;4n]zB99CUQ<]N`2
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 1 38
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vtb_fulladder_4bit
+!s110 1648231809
+!i10b 1
+!s100 :aVzi;3QH:FGQMA22Ll]61
+R2
+IoR5GjZdP3f_SkM1FU23Aa2
+R3
+R0
+w1648231449
+8C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit/tb_fulladder_4bit.v
+FC:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit/tb_fulladder_4bit.v
+!i122 1
+L0 1 42
+R7
+r1
+!s85 0
+31
+!s108 1648231809.000000
+!s107 C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit/tb_fulladder_4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit|C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week04/fulladder_4bit/tb_fulladder_4bit.v|
+!i113 1
+R11
+R12
+R13
