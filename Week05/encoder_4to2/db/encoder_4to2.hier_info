@@ -1,0 +1,11 @@
+|encoder_4to2_if_default
+i[0] => e.OUTPUTSELECT
+i[0] => e.OUTPUTSELECT
+i[1] => e.OUTPUTSELECT
+i[1] => e.DATAA
+i[2] => e.DATAA
+i[3] => ~NO_FANOUT~
+e[0] << e.DB_MAX_OUTPUT_PORT_TYPE
+e[1] << e.DB_MAX_OUTPUT_PORT_TYPE
+
+
