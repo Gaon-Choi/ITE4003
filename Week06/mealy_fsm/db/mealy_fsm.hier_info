@@ -1,0 +1,13 @@
+|mealy_fsm
+clk => state~1.DATAIN
+rst => state~3.DATAIN
+din_bit => Selector0.IN3
+din_bit => Selector0.IN4
+din_bit => dout_bit.IN0
+din_bit => Selector1.IN1
+din_bit => next.st4.DATAB
+din_bit => Selector2.IN1
+din_bit => next.st3.DATAB
+dout_bit << dout_bit.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,101 @@
+# Reading pref.tcl
+# do mealy_fsm_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm {C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/mealy_fsm.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:11:10 on Apr 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm" C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/mealy_fsm.v 
+# -- Compiling module mealy_fsm
+# 
+# Top level modules:
+# 	mealy_fsm
+# End time: 12:11:10 on Apr 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm {C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/tb_mealy_fsm.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:11:10 on Apr 08,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm" C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/tb_mealy_fsm.v 
+# -- Compiling module tb_mealy_fsm
+# 
+# Top level modules:
+# 	tb_mealy_fsm
+# End time: 12:11:10 on Apr 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_mealy_fsm
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_mealy_fsm 
+# Start time: 12:11:10 on Apr 08,2022
+# Loading work.tb_mealy_fsm
+# Loading work.mealy_fsm
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: choigaon  Hostname: DESKTOP-LJ2J8EQ  ProcessID: 11376
+#           Attempting to use alternate WLF file "./wlftmbi5q4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmbi5q4
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# xx
+# 00
+# 00
+# 00
+# 10
+# 20
+# 31
+# 40
+# 10
+# 20
+# 31
+# 00
+# 10
+# 20
+# 30
+# 40
+# 20
+# 30
+# 00
+# ** Note: $stop    : C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/tb_mealy_fsm.v(34)
+#    Time: 370 ps  Iteration: 0  Instance: /tb_mealy_fsm
+# Break in Module tb_mealy_fsm at C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/tb_mealy_fsm.v line 34
+add wave -position insertpoint sim:/tb_mealy_fsm/u0/state
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# xx
+# 00
+# 00
+# 00
+# 10
+# 20
+# 31
+# 40
+# 10
+# 20
+# 31
+# 00
+# 10
+# 20
+# 30
+# 40
+# 20
+# 30
+# 00
+# ** Note: $stop    : C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/tb_mealy_fsm.v(34)
+#    Time: 370 ps  Iteration: 0  Instance: /tb_mealy_fsm
+# Break in Module tb_mealy_fsm at C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/tb_mealy_fsm.v line 34
+# End time: 12:13:49 on Apr 08,2022, Elapsed time: 0:02:39
+# Errors: 0, Warnings: 0

@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/simulation/modelsim
+vmealy_fsm
+Z1 !s110 1649387470
+!i10b 1
+!s100 jT;nKf@9Co4;ZNLf645<V0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IMEb_EH=835XUK^PY`Ob]10
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1649345347
+8C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/mealy_fsm.v
+FC:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/mealy_fsm.v
+!i122 0
+L0 1 45
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1649387470.000000
+!s107 C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/mealy_fsm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm|C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/mealy_fsm.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm
+Z8 tCvgOpt 0
+vtb_mealy_fsm
+R1
+!i10b 1
+!s100 blTCZGN3R>P[EbN]]CnB<3
+R2
+IGzMAcH1FfgBji02N7<8c;2
+R3
+R0
+w1649343486
+8C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/tb_mealy_fsm.v
+FC:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/tb_mealy_fsm.v
+!i122 1
+L0 1 36
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/tb_mealy_fsm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm|C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week06/mealy_fsm/tb_mealy_fsm.v|
+!i113 1
+R6
+R7
+R8
