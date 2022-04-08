@@ -1,0 +1,7 @@
+
+State Machine - |fsm|state
+Name state.ST3 state.ST2 state.ST1 state.ST0 
+state.ST0 0 0 0 0 
+state.ST1 0 0 1 1 
+state.ST2 0 1 0 1 
+state.ST3 1 0 0 1 

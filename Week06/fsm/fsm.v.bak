@@ -1,0 +1,20 @@
+module fsm(clk, rst, bypss, out);
+	input clk, rst;
+	input bypass;
+	output reg [1:0] out;
+	parameter ST0 = 2'b00, ST1 = 2'b01, ST2 = 2'b10, ST3 = 2'b11;
+	
+	reg [1:0] state, next;
+	
+	always @(posedge clk or negedge rst) begin
+		// state register block
+	end
+	
+	always @(state or bypss) begin
+		// next state logic block
+	end
+	
+	always @(posedge clk or negedge rst) begin
+		// output logic block
+	end
+endmodule

@@ -1,0 +1,13 @@
+|fsm
+clk => out[0]~reg0.CLK
+clk => out[1]~reg0.CLK
+clk => state~1.DATAIN
+rst => out[0]~reg0.ACLR
+rst => out[1]~reg0.ACLR
+rst => state~3.DATAIN
+bypss => Selector0.IN3
+bypss => next.ST2.DATAB
+out[0] <= out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
