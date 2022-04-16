@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week07/no_pipeline/simulation/modelsim
+vno_pipeline
+Z1 !s110 1650148443
+!i10b 1
+!s100 gj8SXSzzJUM:MzW[kgnnO2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8AN?HIZWe[PlBbPk;Y1SS2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1649748252
+8C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week07/no_pipeline/no_pipeline.v
+FC:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week07/no_pipeline/no_pipeline.v
+!i122 0
+Z4 L0 3 25
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1650148442.000000
+!s107 C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week07/no_pipeline/no_pipeline.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week07/no_pipeline|C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week07/no_pipeline/no_pipeline.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week07/no_pipeline
+Z8 tCvgOpt 0
+vtb_no_pipeline
+R1
+!i10b 1
+!s100 BEDaiYZ>63adG6==>TEeD0
+R2
+Io`f;d;V088lE<B<Fj8=o^0
+R3
+R0
+w1650148370
+8C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week07/no_pipeline/tb_no_pipeline.v
+FC:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week07/no_pipeline/tb_no_pipeline.v
+!i122 1
+R4
+R5
+r1
+!s85 0
+31
+!s108 1650148443.000000
+!s107 C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week07/no_pipeline/tb_no_pipeline.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week07/no_pipeline|C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week07/no_pipeline/tb_no_pipeline.v|
+!i113 1
+R6
+R7
+R8
