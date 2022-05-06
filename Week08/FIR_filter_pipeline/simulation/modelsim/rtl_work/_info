@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter_pipeline/simulation/modelsim
+vFIR_Filter_pipe
+Z1 !s110 1651833707
+!i10b 1
+!s100 ccZ`g8aiJzUA;glz7oBD23
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Io?o0>5b`J;^6bkRi9QNd=0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1651755391
+8C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter_pipeline/FIR_Filter_pipe.v
+FC:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter_pipeline/FIR_Filter_pipe.v
+!i122 0
+L0 3 32
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1651833707.000000
+!s107 C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter_pipeline/FIR_Filter_pipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter_pipeline|C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter_pipeline/FIR_Filter_pipe.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter_pipeline
+Z8 tCvgOpt 0
+n@f@i@r_@filter_pipe
+vtb_FIR_Filter
+R1
+!i10b 1
+!s100 Dl0^Z^TYUiBGjAjB<M5?M3
+R2
+I=l=20P17WOE?1g3KUN6Vm1
+R3
+R0
+w1651755282
+8C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter_pipeline/tb_FIR_Filter.v
+FC:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter_pipeline/tb_FIR_Filter.v
+!i122 1
+L0 3 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter_pipeline/tb_FIR_Filter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter_pipeline|C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter_pipeline/tb_FIR_Filter.v|
+!i113 1
+R6
+R7
+R8
+ntb_@f@i@r_@filter

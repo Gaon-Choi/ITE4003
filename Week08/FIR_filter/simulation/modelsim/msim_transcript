@@ -1,0 +1,53 @@
+# Reading pref.tcl
+# do FIR_filter_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter {C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter/FIR_Filter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:45:03 on May 06,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter" C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter/FIR_Filter.v 
+# -- Compiling module FIR_Filter
+# 
+# Top level modules:
+# 	FIR_Filter
+# End time: 18:45:03 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter {C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter/tb_FIR_Filter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:45:03 on May 06,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter" C:/Users/USER/Documents/SOC-Design_2019009261_GAONCHOI/Week08/FIR_filter/tb_FIR_Filter.v 
+# -- Compiling module tb_FIR_Filter
+# 
+# Top level modules:
+# 	tb_FIR_Filter
+# End time: 18:45:03 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_FIR_Filter
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_FIR_Filter 
+# Start time: 18:45:03 on May 06,2022
+# Loading work.tb_FIR_Filter
+# Loading work.FIR_Filter
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint sim:/tb_FIR_Filter/f1/*
+# Break key hit
+# Simulation stop requested.
+restart -f
+run -all
+# End time: 18:56:58 on May 06,2022, Elapsed time: 0:11:55
+# Errors: 0, Warnings: 0
